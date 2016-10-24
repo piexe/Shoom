@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.giocoso.administrator.shoom.R;
 
@@ -15,7 +16,7 @@ import com.giocoso.administrator.shoom.R;
  */
 public class PhotoSelect extends Fragment {
 
-    Button home_button;
+    ImageButton home_button;
 
     public PhotoSelect() {
         // Required empty public constructor
@@ -29,7 +30,7 @@ public class PhotoSelect extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_photo_select, container, false);
 
-        home_button = (Button)view.findViewById(R.id.home_button);
+        home_button = (ImageButton)view.findViewById(R.id.move_frament_button2);
 
         home_button.setOnClickListener(new View.OnClickListener() {
             @Override

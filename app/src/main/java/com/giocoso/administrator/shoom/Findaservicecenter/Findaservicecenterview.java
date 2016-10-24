@@ -1,4 +1,4 @@
-package com.giocoso.administrator.shoom.Findaservicecenter;
+package com.giocoso.administrator.shoom.findaservicecenter;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import com.giocoso.administrator.shoom.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Findaservicecenterview extends Fragment {
+public class findaservicecenterview extends Fragment {
 
 
-    public Findaservicecenterview() {
+    public findaservicecenterview() {
         // Required empty public constructor
     }
 
